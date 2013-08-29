@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>nl.salp.funccov</groupId>
+        <artifactId>funccov</artifactId>
+        <version>0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>funccov-util</artifactId>
+
+    <name>Functional Test Coverage - Utility classes</name>
+
+    <organization>
+        <name>Fitting</name>
+        <url>http://www.fitting-test.org</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Barre Dijkstra</name>
+            <roles>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+            <email>barre.dijkstra@qsd.nl</email>
+            <organization>QSD</organization>
+            <organizationUrl>http://www.qsd.nl/</organizationUrl>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <!-- Modules -->
+        <dependency>
+            <groupId>nl.salp.funccov</groupId>
+            <artifactId>funccov-core</artifactId>
+        </dependency>
+        <!-- Commons -->
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+        <!-- HTTP -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <!-- Dependency Injection -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+        </dependency>
+        <!-- Test -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

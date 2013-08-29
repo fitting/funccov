@@ -50,6 +50,7 @@
         <module>funccov-core</module>
         <module>funccov-jira</module>
         <module>funccov-fitnesse</module>
+        <module>funccov-util</module>
     </modules>
 
     <build>
